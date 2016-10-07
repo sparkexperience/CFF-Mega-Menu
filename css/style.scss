@@ -87,6 +87,7 @@ $tablet: 'screen and (max-width: #{767px})';
         width: 100%;
         height: auto;
         background-color: $lt-grey;
+        text-align: left;
 
         @media #{$tablet} {
             position: relative;
@@ -97,7 +98,7 @@ $tablet: 'screen and (max-width: #{767px})';
         }
 
         &.sectionAligned--center {
-            text-align: center;
+            text-align: left;
 
             @media #{$tablet} {
                 text-align: left;
@@ -291,7 +292,7 @@ $tablet: 'screen and (max-width: #{767px})';
         font-size: 0;
 
         &.sectionAligned--center {
-            text-align: center;
+            text-align: left;
 
             @media #{$tablet} {
                 text-align: left;

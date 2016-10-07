@@ -53,7 +53,8 @@ body {
     left: 0;
     width: 100%;
     height: auto;
-    background-color: #f8f8f8; }
+    background-color: #f8f8f8;
+    text-align: left; }
     @media screen and (max-width: 767px) {
       .primaryNav__container .subMenu__container {
         position: relative;
@@ -62,7 +63,7 @@ body {
         width: auto;
         background-color: transparent; } }
     .primaryNav__container .subMenu__container.sectionAligned--center {
-      text-align: center; }
+      text-align: left; }
       @media screen and (max-width: 767px) {
         .primaryNav__container .subMenu__container.sectionAligned--center {
           text-align: left; } }
@@ -192,7 +193,7 @@ body {
   .primaryNav__container .alternateMenu__outer {
     font-size: 0; }
     .primaryNav__container .alternateMenu__outer.sectionAligned--center {
-      text-align: center; }
+      text-align: left; }
       @media screen and (max-width: 767px) {
         .primaryNav__container .alternateMenu__outer.sectionAligned--center {
           text-align: left; } }
