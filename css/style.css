@@ -224,11 +224,12 @@ body {
     .primaryNav__container .alternateMenu__hasLInks .alternateMenu__open-link:after {
       content: '+';
       position: absolute;
-      right: 0; }
+      right: -3px; }
   .primaryNav__container .alternateMenu__hasLInks .alternateMenu__container {
     display: none; }
   .primaryNav__container .alternateMenu__hasLInks.alternateMenu__active .alternateMenu__open-link:after {
-    content: '-'; }
+    content: '-';
+    right: 0; }
   .primaryNav__container .alternateMenu__hasLInks.alternateMenu__active .alternateMenu__container {
     display: block; }
   .primaryNav__container .alternateMenu__open-link {

@@ -339,7 +339,7 @@ $tablet: 'screen and (max-width: #{767px})';
             &:after {
                 content: '+';
                 position: absolute;
-                right: 0;
+                right: -3px;
             }
         }
 
@@ -352,6 +352,7 @@ $tablet: 'screen and (max-width: #{767px})';
             .alternateMenu__open-link {
                 &:after {
                     content: '-';
+                    right: 0;
                 }
             }
 
