@@ -28,7 +28,7 @@ $(function () {
             e.preventDefault();
             $container.toggleClass(activeclass);
 
-            $container.siblings().removeClass(activeclass);
+           // $container.siblings().removeClass(activeclass);
         });
     });
 });

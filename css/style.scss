@@ -134,6 +134,10 @@ $tablet: 'screen and (max-width: #{767px})';
         line-height: 1;
         text-decoration: none;
 
+        &:hover {
+            color: $yellow;
+        }
+
         @media #{$tablet} {
             display: none;
         }
@@ -208,6 +212,11 @@ $tablet: 'screen and (max-width: #{767px})';
 
         @media #{$tablet} {
             display: none;
+        }
+
+        + .primaryNav__submenu-title,
+        + .primaryNav__submenu-title--secondary {
+            text-align: center;
         }
     }
 
@@ -364,6 +373,7 @@ $tablet: 'screen and (max-width: #{767px})';
         text-decoration: none;
         font-size: 14px;
         line-height: 1.5;
+        font-weight: bold;
 
         &:hover {
             color: $yellow;
