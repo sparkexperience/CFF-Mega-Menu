@@ -121,7 +121,7 @@ body {
   .primaryNav__container .primaryNav__submenu-title--alternate {
     color: #026795;
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 1.2;
     margin: 0 0 20px;
     font-weight: 700; }
     @media screen and (max-width: 767px) {
