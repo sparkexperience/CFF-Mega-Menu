@@ -381,3 +381,28 @@ $tablet: 'screen and (max-width: #{767px})';
         }
     }
 }
+
+.Header-navAction {
+    background-color: $lt-blue;
+}
+
+.donateNav {
+    padding: 15px 0;
+    text-align: center;
+
+    .donateNav__donateHeart {
+        width: 29px;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}

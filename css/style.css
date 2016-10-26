@@ -246,4 +246,21 @@ body {
     .primaryNav__container .alternateMenu__link:hover {
       color: #ebbe2d; }
 
+.Header-navAction {
+  background-color: #00a1de; }
+
+.donateNav {
+  padding: 15px 0;
+  text-align: center; }
+  .donateNav .donateNav__donateHeart {
+    width: 29px;
+    display: block;
+    margin: 0 auto 15px auto; }
+  .donateNav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; }
+    .donateNav a:hover {
+      color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
