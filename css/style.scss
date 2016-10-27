@@ -5,9 +5,8 @@ body {
 
 .header {
     position: relative;
-    background-color: #ffffff;
-    padding-top: 20px;
     font-family: Arial, sans-serif;
+    padding-bottom: 16px;
 }
 
 // vars
@@ -21,7 +20,7 @@ $lt-grey: #f8f8f8;
 $tablet: 'screen and (max-width: #{767px})';
 
 .container {
-    max-width: 1060px;
+    max-width: 1300px;
     padding-left: 30px;
     padding-right: 30px;
     margin: 0 auto;
@@ -387,8 +386,11 @@ $tablet: 'screen and (max-width: #{767px})';
 }
 
 .donateNav {
-    padding: 15px 0;
+    padding: 23px 0 21px 0;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    background-color: $lt-blue;
 
     .donateNav__donateHeart {
         width: 29px;
@@ -405,4 +407,18 @@ $tablet: 'screen and (max-width: #{767px})';
             color: #fff;
         }
     }
+}
+
+@media screen and (min-width: 66.75em) {
+    .Header-nav .Nav-primary-wrap {
+        bottom: 0;
+    }
+}
+
+.Header-navAction {
+    padding-bottom: 16px;
+}
+
+.ActionNav-wrap {
+    position: relative;
 }
