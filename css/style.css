@@ -20,7 +20,7 @@ body {
   @media screen and (max-width: 910px) {
     .primaryNav__container {
       padding: 0 2% 0 19.8%; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .primaryNav__container {
       padding: 0; }
       .primaryNav__container > ul > li:last-of-type {
@@ -55,7 +55,7 @@ body {
         text-align: left;
         width: 33%;
         display: inline-block; } }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       .primaryNav__container .primaryNav__item {
         display: block;
         width: 100%;
@@ -68,17 +68,22 @@ body {
     .primaryNav__container .primaryNav__item.subMenu__active .primaryNav__item-link {
       color: #ebbe2d;
       text-decoration: underline; }
-      @media screen and (max-width: 768px) {
-        .primaryNav__container .primaryNav__item.subMenu__active .primaryNav__item-link .fa-angle-down {
-          display: none; }
-        .primaryNav__container .primaryNav__item.subMenu__active .primaryNav__item-link .fa-angle-up {
-          display: inline; } }
+      @media screen and (max-width: 767px) {
+        .primaryNav__container .primaryNav__item.subMenu__active .primaryNav__item-link {
+          text-decoration: none;
+          border-bottom: 1px solid #ebbe2d;
+          padding-bottom: 5px;
+          margin-bottom: 8px; }
+          .primaryNav__container .primaryNav__item.subMenu__active .primaryNav__item-link .fa-angle-down {
+            display: none; }
+          .primaryNav__container .primaryNav__item.subMenu__active .primaryNav__item-link .fa-angle-up {
+            display: inline; } }
   .primaryNav__container .primaryNav__item-link {
     color: #026795;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       .primaryNav__container .primaryNav__item-link {
         display: block; } }
     .primaryNav__container .primaryNav__item-link:hover {
@@ -90,7 +95,7 @@ body {
       padding-right: 2px;
       font-size: 25px;
       display: none; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       .primaryNav__container .primaryNav__item-link .fa-angle-down {
         display: inline; } }
   .primaryNav__container .subMenu__container {
@@ -173,7 +178,9 @@ body {
     font-weight: 700; }
     @media screen and (max-width: 767px) {
       .primaryNav__container .primaryNav__submenu-title--alternate {
-        display: none; } }
+        font-size: 18px;
+        margin-bottom: 0;
+        line-height: 18px; } }
   .primaryNav__container .primaryNav__submenu-description {
     color: #848484;
     font-size: 14px;
@@ -194,7 +201,7 @@ body {
     .primaryNav__container .subMenu__image + .primaryNav__submenu-title,
     .primaryNav__container .subMenu__image + .primaryNav__submenu-title--secondary {
       text-align: center; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 767px) {
         .primaryNav__container .subMenu__image + .primaryNav__submenu-title,
         .primaryNav__container .subMenu__image + .primaryNav__submenu-title--secondary {
           text-align: left; } }
@@ -294,7 +301,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-weight: bold; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       .primaryNav__container .alternateMenu__link {
         padding-left: 10px; } }
     .primaryNav__container .alternateMenu__link:hover {
@@ -316,9 +323,11 @@ body {
     width: 29px;
     display: block;
     margin: 0 auto 15px auto; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       .donateNav .donateNav__donateHeart {
-        display: none; } }
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 6px 0px 0; } }
   .donateNav a {
     color: #fff;
     text-decoration: none;
@@ -347,7 +356,7 @@ nav > .primaryNav__list li:first-of-type {
 
   .primaryNav__container .subMenu__container {
     margin-top: -10px; } }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .primaryNav__container .subMenu__container {
     margin-top: 0; } }
 .Nav-toggle[aria-expanded=true] .fa-times {
