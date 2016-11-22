@@ -42,10 +42,8 @@ $tablet: 'screen and (max-width: #{767px})';
     }
 
     .primaryNav__list {
-        display: table;
-        width: 100%;
-        list-style: none;
-        //@extend .container;
+        display: flex;
+        justify-content: space-between;
 
         @media #{$tablet} {
             display: block;
@@ -53,10 +51,7 @@ $tablet: 'screen and (max-width: #{767px})';
     }
 
     .primaryNav__item {
-        display: table-cell;
-        vertical-align: baseline;
-        text-align: center;
-        width: 5%;
+
 
         @media #{$tablet} {
             display: block;
@@ -75,9 +70,10 @@ $tablet: 'screen and (max-width: #{767px})';
         }
 
         @media screen and ( max-width: 910px ){
-                text-align: left;
-                width: 33%;
-                display: inline-block;
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+            padding-right: 2%;
         }
 
         @media screen and ( max-width: 767px ){
@@ -87,6 +83,7 @@ $tablet: 'screen and (max-width: #{767px})';
             line-height: 24px;
             padding: 12px 0 0 0;
             border-top: 1px solid #ccc;
+            text-align: left!important;
         }
 
         &.subMenu__active {
