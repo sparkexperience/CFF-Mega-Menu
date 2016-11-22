@@ -56,6 +56,7 @@ $tablet: 'screen and (max-width: #{767px})';
         display: table-cell;
         vertical-align: baseline;
         text-align: center;
+        width: 5%;
 
         @media #{$tablet} {
             display: block;
@@ -512,6 +513,10 @@ $tablet: 'screen and (max-width: #{767px})';
 
 nav > .primaryNav__list li:first-of-type {
     text-align: left;
+}
+
+nav > .primaryNav__list li:last-of-type {
+    text-align: right;
 }
 
 @media screen and (min-width: 48em) {

@@ -30,7 +30,8 @@ body {
   .primaryNav__container .primaryNav__item {
     display: table-cell;
     vertical-align: baseline;
-    text-align: center; }
+    text-align: center;
+    width: 5%; }
     @media screen and (max-width: 767px) {
       .primaryNav__container .primaryNav__item {
         display: block;
@@ -340,6 +341,9 @@ body {
 
 nav > .primaryNav__list li:first-of-type {
   text-align: left; }
+
+nav > .primaryNav__list li:last-of-type {
+  text-align: right; }
 
 @media screen and (min-width: 48em) {
   .Header-navAction {
